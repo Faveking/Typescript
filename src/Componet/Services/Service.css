@@ -1,0 +1,46 @@
+.images-display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.our-services {
+  font-family: var(--dm-sans-font-family);
+  font-size: 40px;
+  color: rgb(61, 102, 61);
+  margin-top: 60px;
+}
+
+.div-divider {
+  border: 2px solid rgb(255, 217, 54);
+  width: 5.5rem;
+  margin: 30px auto;
+}
+
+.images-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.images-section div {
+  width: 30%;
+}
+
+.heading-title {
+  font-size: 20px;
+  color: rgb(71, 90, 56);
+  font-family: var(--dm-sans-font-family);
+  width: 80%;
+}
+
+.heading-description {
+  font-size: 16px;
+  color: rgb(83, 105, 66);
+  font-family: var(--dm-sans-font-family);
+  font-weight: 400;
+  line-height: 28px;
+  width: 80%;
+}
