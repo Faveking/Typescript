@@ -33,7 +33,7 @@ const Service = () => {
 
         </div>
       </div>
-        </>
+        </> 
       ))}
 
       {/* bdudlu */}
