@@ -6,10 +6,10 @@ import {
   EyeIcon,
   EyeSlashIcon,
 } from "@heroicons/react/24/outline";
-// import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export default function Signup() {
-  //   const navigate = useNavigate();
+  const navigate = useNavigate();
   const [firstName, setFirstName] = useState<string>("");
   const [lastName, setLastName] = useState<string>("");
   const [email, setEmail] = useState<string>("");
@@ -61,7 +61,7 @@ export default function Signup() {
       setAgreed(false);
 
       localStorage.setItem("userId", response.data._id);
-      //   navigate("/");
+      navigate("/");
     } catch (error: any) {
       setErrorMsg(error?.response?.data?.message || "Signup failed.");
     } finally {
